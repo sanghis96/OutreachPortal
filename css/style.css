@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+.error {color: #FF0000;}
+
+#tab1 {visibility: visible;}
+#tab2 {
+    visibility: hidden;
+    position: absolute;
+}
+
+#searchBox {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#searchBox:focus {width: 100%;}
+
+#nodalTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+#nodalTable th {text-align: center;}
+#nodalTable th, #nodalTable td {padding: 12px;}
+#nodalTable tr {border-bottom: 1px solid #ddd;}
+#nodalTable tr.header, #nodaltTable tr:hover {background-color: #f1f1f1;}
